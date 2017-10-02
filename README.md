@@ -15,5 +15,11 @@ Feel free to use [Tachyons](http://tachyons.io/) for designing right in browser.
 5. __Build component with BEM__. Feel free to adjust container as you need.
 6. Create pull-request
 
-## Structure and customization
+## Guidelines
+ - __Keep it mobile-first.__  
+Open devtools and choose narrow viewport (around 500 px wide). Your component should not misbehave at any viewport width.
+ - __Keep it BEM.__  
+Separate BEM namespaces allows components to be truly independent and replaceable.
+
+## Structure
 _(coming soon)_
