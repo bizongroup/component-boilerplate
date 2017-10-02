@@ -1,5 +1,5 @@
 # Component boilerplate
-Simple and straightforward boilerplate for making components. Meant to be used with Brackets and Live Reload.
+Simple and straightforward boilerplate that enables you to make components with zero configuration. Meant to be used with Brackets and Live Reload.
 
 Feel free to use [Tachyons](http://tachyons.io/) for designing right in browser. Just uncomment the Tachyons import and go ahead.
 
@@ -17,8 +17,8 @@ Feel free to use [Tachyons](http://tachyons.io/) for designing right in browser.
 
 ## Guidelines
  - __Keep it mobile-first.__  
-
 Open devtools and choose narrow viewport (around 500 px wide). Your component should not misbehave at any viewport width.
+
  - __Keep it BEM.__  
 Separate BEM namespaces allows components to be truly independent and replaceable.
 
