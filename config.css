@@ -1,0 +1,14 @@
+html {
+    background-color: rgba(255, 0, 0, .2);
+}
+
+body {
+    
+    /* Edit this to adjust width */
+    max-width: 400px;
+    
+
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 50px;
+}

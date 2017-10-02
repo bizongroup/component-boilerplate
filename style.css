@@ -1,0 +1,52 @@
+/*  Please, use 8px grid.  */
+
+.card {
+    padding: 16px;
+    border-radius: 8px;
+    
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #e8e8e8, #dddddd);
+    
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+}
+
+.card__heading {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.card__text {
+    line-height: 1.25;
+}
+
+.card__button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    
+    color: white;
+    line-height: 1.25;
+    
+    background: hsl(198, 51%, 49%);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+    
+    cursor: pointer;
+    
+    transition:
+        background .1s linear,
+        box-shadow .1s linear;
+}
+
+.card__button:hover,
+.card__button:focus {
+    /*  HSL lighting is easier to understand  */
+    background: hsl(198, 51%, 56%);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+    
+    /*  Don't forget to replace missing outline with some kind of effect  */
+    outline: none;
+}
+
+.card__button--monospace {
+    font-family: monospace;
+}
