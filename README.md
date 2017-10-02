@@ -22,5 +22,8 @@ Open devtools and choose narrow viewport (around 500 px wide). Your component sh
  - __Keep it BEM.__  
 Separate BEM namespaces allows components to be truly independent and replaceable.
 
+ - __Use 8-Point grid.__  
+[8-Point grid](https://spec.fm/specifics/8-pt-grid) makes pixels look sharp and helps to preserve vertical rhythm.
+
 ## Structure
 _(coming soon)_
