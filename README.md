@@ -1,5 +1,5 @@
 # Component boilerplate
-Simple and straightforward boilerplate for making components. Meant to be used with Brackets and Live Reload.
+Simple and straightforward boilerplate that enables you to make components with zero configuration. Meant to be used with Brackets and Live Reload.
 
 Feel free to use [Tachyons](http://tachyons.io/) for designing right in browser. Just uncomment the Tachyons import and go ahead.
 
