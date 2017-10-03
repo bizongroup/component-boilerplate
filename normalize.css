@@ -1,4 +1,4 @@
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Inspired by normalize.css v7.0.0 | github.com/necolas/normalize.css */
 
 /* Document
    ========================================================================== */
@@ -444,4 +444,23 @@ template {
 
 [hidden] {
   display: none;
+}
+
+
+/* Use grid instead */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* Beautiful text rendering and root font size*/
+html {
+  font-size: 16px;  /* two grid points */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
