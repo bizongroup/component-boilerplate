@@ -1,4 +1,4 @@
-/*  Please, use 8px grid.  */
+/*  Please, see README first!  */
 
 .card {
     padding: 16px;
@@ -39,12 +39,14 @@
 
 .card__button:hover,
 .card__button:focus {
-    /*  HSL lighting is easier to understand  */
     background: hsl(198, 51%, 56%);
     box-shadow: 0 0 4px rgba(0, 0, 0, .3);
     
-    /*  Don't forget to replace missing outline with some kind of effect  */
     outline: none;
+}
+
+.card__button:active {
+    background: hsl(198, 51%, 66%);
 }
 
 .card__button--monospace {
