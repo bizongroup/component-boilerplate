@@ -104,4 +104,41 @@ Let's review the styling itself.
 1. Our reset sets the default margins to zero, so you should choose them on your own. Use grid to keep it aligned to vertical rhythm.
 2. Always fill the component with wrapping text and check how it wraps. Adjust `line-height` accordingly.
 
+#### Pseudo-classes
+```CSS
+.card__button {
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .5rem;  /* 1 */
+    
+    color: white;
+    line-height: 1.25;
+    
+    background: hsl(198, 51%, 49%);  /* 2 */
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);  /* 3 */
+    
+    transition:
+        background .1s linear,  /* 4 */
+        box-shadow .1s linear;
+}
+
+.card__button:hover,
+.card__button:focus {
+    background: hsl(198, 51%, 56%);  /* 2 */
+    box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+    
+    outline: none;  /* 5 */
+}
+
+.card__button:active {
+    background: hsl(198, 51%, 66%);  /* 2 */
+    outline: none;  /* 5 */
+}
+```
+1. _Any_ values (excluding only `line-height` and maybe `border-width`) should be measured in grid points.
+2. When you make colors ligher or darker on some action, use HSL definitions. In HSL, you may only change one last value (`lightness`) to make the color darker or lighter.
+3. Transparent shadow looks awesome.
+4. _Never_ use `transition: all ...`. Always define transition properties explicitly.
+5. Provide some visual difference when removing outlines.
+
 _(to be continued)_
