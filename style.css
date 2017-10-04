@@ -47,6 +47,7 @@
 
 .card__button:active {
     background: hsl(198, 51%, 66%);
+    outline: none;
 }
 
 .card__button--monospace {
