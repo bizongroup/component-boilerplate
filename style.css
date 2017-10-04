@@ -30,8 +30,6 @@
     background: hsl(198, 51%, 49%);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
     
-    cursor: pointer;
-    
     transition:
         background .1s linear,
         box-shadow .1s linear;
